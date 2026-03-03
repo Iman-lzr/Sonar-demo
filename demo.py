@@ -1,8 +1,10 @@
-def hello(name):
-    print("Hello " + name)
-
-    if name == "DevOps":
-        print("Special user")
+def say_hello():
+    print("Hello DevOps")
 
 
-hello("DevOps")
+def say_hello_again():
+    print("Hello DevOps")   
+
+
+say_hello()
+say_hello_again()
